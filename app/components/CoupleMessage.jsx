@@ -58,7 +58,7 @@ export default function CoupleMessage() {
               className="mySwiper"
             >
               <SwiperSlide>
-                <img src="/assets/image1.png" />
+                <img src="/assets/image1.webp" />
               </SwiperSlide>
 
               <SwiperSlide>
@@ -70,7 +70,7 @@ export default function CoupleMessage() {
               </SwiperSlide>
 
               <SwiperSlide>
-                <img src="/image4.png" />
+                <img src="/image4.webp" />
               </SwiperSlide>
 
               <SwiperSlide>
