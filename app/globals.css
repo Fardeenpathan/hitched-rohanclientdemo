@@ -71,8 +71,7 @@ body {
 
 .mySwiper img {
   width: 100%;
-  border-radius: 25px;
-  border: 4px solid #e0a23a;
+  
 }
 
 .mySwiper .swiper-pagination-bullet-active {

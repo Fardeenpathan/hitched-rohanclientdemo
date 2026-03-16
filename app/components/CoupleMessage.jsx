@@ -58,35 +58,35 @@ export default function CoupleMessage() {
               className="mySwiper"
             >
               <SwiperSlide>
-                <img src="/image1.jpg" />
+                <img src="/image1.png" />
               </SwiperSlide>
 
               <SwiperSlide>
-                <img src="/image2.jpg" />
+                <img src="/image2.png" />
               </SwiperSlide>
 
               <SwiperSlide>
-                <img src="/image3.jpg" />
+                <img src="/image3.png" />
               </SwiperSlide>
 
               <SwiperSlide>
-                <img src="/image4.jpg" />
+                <img src="/image4.png" />
               </SwiperSlide>
 
               <SwiperSlide>
-                <img src="/image1.jpg" />
+                <img src="/image1.png" />
               </SwiperSlide>
 
               <SwiperSlide>
-                <img src="/image2.jpg" />
+                <img src="/image2.png" />
               </SwiperSlide>
 
               <SwiperSlide>
-                <img src="/image3.jpg" />
+                <img src="/image3.png" />
               </SwiperSlide>
 
               <SwiperSlide>
-                <img src="/image4.jpg" />
+                <img src="/image4.png" />
               </SwiperSlide>
             </Swiper>
           </div>
@@ -120,7 +120,7 @@ export default function CoupleMessage() {
                 <img
                   src="/assets/drive_h.png"
                   alt="drive"
-                  className="lg:h-22 lg:w-24 h-28 w-32 "
+                  className="lg:h-22 lg:w-21 h-32 w-32"
                 />
                 <h2 className="lg:text-[32px] text-[50px] text-[#FFF5B9] mt-2 font-Cormorant-upright">
                   Staff
@@ -149,13 +149,13 @@ export default function CoupleMessage() {
             </div>
           </div>
 
-          <div className="flex flex-col justify-center items-center lg:mt-20 mt-1">
-            <h2 className="lg:text-5xl text-2xl text-center text-[#FFF5B9] lg:pt-6 font-Cormorant-upright">
+          <div className="flex flex-col justify-center items-center lg:mt-20 mt-1 lg:ml-0 ml-24">
+            <h2 className="lg:text-5xl text-2xl text-center text-[#FFF5B9] lg:pt-72 font-Cormorant-upright pt-40">
               Looking Forward to <br /> Seeing You
             </h2>
-            <div className="flex flex-col-1 gap-4 justify-center items-center mt-4">
+            <div className="flex flex-col-1 gap-4 justify-center items-center mt-4 ">
               <a href="#" target="_blank">
-                <img src="/assets/whatsapp.png" alt="" className="h-10 w-10" />
+                <img src="/assets/whatsapp.png" alt="" className="lg:h-10 lg:w-10 h-8 w-8" />
               </a>
               <h2 className="lg:text-3xl text-2xl text-center text-[#FFF5B9]  font-Cormorant-upright">
                 Click the Link to RSVP
