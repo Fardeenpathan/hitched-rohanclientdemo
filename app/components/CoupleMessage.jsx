@@ -74,7 +74,7 @@ export default function CoupleMessage() {
               </SwiperSlide>
 
               <SwiperSlide>
-                <img src="https://res.cloudinary.com/dx2di0mvx/image/upload/v1773722870/Image1_wvcres.webp" />
+                <img src="https://res.cloudinary.com/dx2di0mvx/image/upload/v1773723250/Image5_ziugxm.png" />
               </SwiperSlide>
 
               <SwiperSlide>
