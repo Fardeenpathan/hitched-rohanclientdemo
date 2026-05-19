@@ -13,19 +13,19 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://demo-hindu.netlify.app/"),
+  metadataBase: new URL("https://hitched-clientdemo.vercel.app/"),
 
   openGraph: {
-    title: "Dhiraj Weds Ritika - InviteArc",
-    description: "Premium wedding invitation templates by InviteArc",
-    url: "https://demo-hindu.netlify.app/",
+    title: "Rohit Weds Deeksha",
+    description: "Come celebrate love, laughter & happily ever after with us!",
+    url: "https://hitched-clientdemo.vercel.app/",
     siteName: "InviteArc",
     images: [
       {
         url: "/og.jpg",
         width: 1200,
         height: 630,
-        alt: "Dhiraj Weds Ritika - InviteArc",
+        alt: "Rohit Weds Deeksha",
       },
     ],
     type: "website",
@@ -34,13 +34,13 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Dhiraj Weds Ritika - InviteArc",
-    description: "Premium wedding invitation templates by InviteArc",
+    title: "Rohit Weds Deeksha",
+    description: "Come celebrate love, laughter & happily ever after with us!",
     images: ["/og.jpg"],
   },
 
  other: {
-    "og:image:secure_url": "https://demo-hindu.netlify.app/og.jpg",
+    "og:image:secure_url": "https://hitched-clientdemo.vercel.app/og.jpg",
     "og:image:type": "image/jpeg",
   },
 

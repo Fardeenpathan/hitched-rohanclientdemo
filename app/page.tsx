@@ -72,36 +72,6 @@ export default function Home() {
       link: "https://maps.app.goo.gl/fKxi3eDGsTSd5Aaz6?g_st=ic",
     },
 
-    // {
-    //   title_ceremony: "Engagement",
-    //   image: "/assets/engagement_w.png",
-    //   date: "Tuesday, March 10th 2026",
-    //   venue: "Hyatt Regency Delhi",
-    //   venue_address: <>Ring Road, Bhikaji Cama Place, <br />  RK Puram, New Delhi 110066</>,
-    //   time: "7:00 pm onwards",
-    //   link: "https://maps.app.goo.gl/53z68ksx4cYgoNm59",
-    // },
-
-    // {
-    //   title_ceremony: "Shaadi",
-    //   image: "/assets/shaadi_w.png",
-    //   date: "Friday, March 13th 2026",
-    //   venue: "The Leela Palace",
-    //   venue_address: <>Africa Ave, Diplomatic Enclave, Chanakyapuri,<br /> Delhi 110023</>,
-    //   time: "4:00pm Onwards",
-    //   link: "https://maps.app.goo.gl/mxcwCxWhH1TXBC8c9",
-    // },
-    // {
-    //   title_ceremony: "Reception",
-    //   image: "/assets/reception_w.png",
-    //   date: "Sunday, March 15th 2026",
-    //   venue: "The Ashok Hotel",
-    //   venue_address: <>50-B, Diplomatic Enclave,<br /> Chanakyapuri, New Delhi – 110021</>,
-    //   time: "8pm Onwards",
-    //   link: "https://maps.app.goo.gl/f599YkTSEYKDEK5L7",
-    // },
-
-
   ];
 
   const audioRef = useRef<HTMLAudioElement | null>(null);
