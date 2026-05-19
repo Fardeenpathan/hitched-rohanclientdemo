@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 
 export default function MarriageCountdown() {
-    const TARGET_DATE = new Date("2026-06-09").getTime();
+    const TARGET_DATE = new Date("2026-06-21").getTime();
     const [timeLeft, setTimeLeft] = useState({
         days: 0,
         hours: 0,
@@ -36,8 +36,8 @@ export default function MarriageCountdown() {
 
     return (
         <>
-            <div className="bg-[url('/assets/countdown_bg.jpg')] bg-cover bg-no-repeat pb-12">
-                <div className="lg:h-110 md:h-100 h-80">
+            <div className="bg-[url('/assets/countdown_bg.jpg')] bg-cover bg-no-repeat pb-12 md:pb-50 3xl:pb-40">
+                <div className="lg:h-100 md:h-100 h-80">
                     <h2 className="lg:text-[40px] text-4xl text-center text-[#FFF5B9] lg:pt-42 pt-12 font-Cormorant-upright">The countdown begins</h2> 
                       <h2 className="lg:text-[40px] text-2xl text-center text-[#FFF5B9] font-Cormorant-upright"> {timeLeft.days}D {timeLeft.hours}H {timeLeft.minutes}M</h2>
                     <p className="lg:text-[22px] text-[20px] text-[#FFF5B9] mt-4 text-center lg:px-100 md:px-25 px-10 font-Cormorant-upright">

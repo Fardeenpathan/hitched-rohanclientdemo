@@ -44,62 +44,62 @@ const FloatingLamp = ({ className, style, reverse = false }: { className: string
 export default function Home() {
   const events = [
     {
-      title_ceremony: "Mehandi",
-      image: "/assets/mehandi.png",
-      date: "Tuesday, March 10th 2026",
-      venue: "Hyatt Regency Delhi",
-      venue_address: <>Ring Road, Bhikaji Cama Place, <br />  RK Puram, New Delhi 110066</>,
-      time: "7:00 pm onwards",
-      link: "https://maps.app.goo.gl/53z68ksx4cYgoNm59",
+      title_ceremony: "Mehendi + Haldi",
+      image: "/assets/haldievent.png",
+      date: "Saturday, 20th June 2026",
+      venue: "The Central Park Hotel",
+      venue_address: <>Bund Garden Road, Agarkar Nagar, <br />   Pune, Maharashtra, 411001</>,
+      time: "4pm onwards",
+      link: "https://maps.app.goo.gl/fKxi3eDGsTSd5Aaz6?g_st=ic",
     },
 
     {
-      title_ceremony: "Haldi",
-      image: "/assets/haldi_m.png",
-      date: "Friday, March 13th 2026",
-      venue: "Golden Gate Banquet",
-      venue_address: <>Block B, Mayapuri Industrial Area Phase I, Mayapuri<br /> Delhi 110064</>,
-      time: "4:00pm Onwards",
-      link: "https://maps.app.goo.gl/ywMPWwHjbXvqwiWc8",
-    },
-    {
-      title_ceremony: "Cocktail",
-      image: "/assets/cocktail_w.png",
-      date: "Sunday, March 15th 2026",
-      venue: "The Ashok Hotel",
-      venue_address: <>50-B, Diplomatic Enclave,<br /> Chanakyapuri, New Delhi – 110021</>,
+      title_ceremony: "Engagement + Sangeet",
+      image: "/assets/sangeetevent.png",
+      date: "Saturday, 20th June 2026",
+      venue: "The Central Park Hotel",
+      venue_address: <>Bund Garden Road, Agarkar Nagar, <br />   Pune, Maharashtra, 411001</>,
       time: "8pm Onwards",
-      link: "https://maps.app.goo.gl/f599YkTSEYKDEK5L7",
+      link: "https://maps.app.goo.gl/fKxi3eDGsTSd5Aaz6?g_st=ic",
+    },
+    {
+      title_ceremony: "Wedding + Reception",
+      image: "/assets/receptionevent.png",
+      date: "Sunday, 21st June 2026",
+      venue: "The Central Park Hotel",
+      venue_address: <>Bund Garden Road, Agarkar Nagar, <br />   Pune, Maharashtra, 411001</>,
+      time: "5pm Onwards",
+      link: "https://maps.app.goo.gl/fKxi3eDGsTSd5Aaz6?g_st=ic",
     },
 
-    {
-      title_ceremony: "Engagement",
-      image: "/assets/engagement_w.png",
-      date: "Tuesday, March 10th 2026",
-      venue: "Hyatt Regency Delhi",
-      venue_address: <>Ring Road, Bhikaji Cama Place, <br />  RK Puram, New Delhi 110066</>,
-      time: "7:00 pm onwards",
-      link: "https://maps.app.goo.gl/53z68ksx4cYgoNm59",
-    },
+    // {
+    //   title_ceremony: "Engagement",
+    //   image: "/assets/engagement_w.png",
+    //   date: "Tuesday, March 10th 2026",
+    //   venue: "Hyatt Regency Delhi",
+    //   venue_address: <>Ring Road, Bhikaji Cama Place, <br />  RK Puram, New Delhi 110066</>,
+    //   time: "7:00 pm onwards",
+    //   link: "https://maps.app.goo.gl/53z68ksx4cYgoNm59",
+    // },
 
-    {
-      title_ceremony: "Shaadi",
-      image: "/assets/shaadi_w.png",
-      date: "Friday, March 13th 2026",
-      venue: "The Leela Palace",
-      venue_address: <>Africa Ave, Diplomatic Enclave, Chanakyapuri,<br /> Delhi 110023</>,
-      time: "4:00pm Onwards",
-      link: "https://maps.app.goo.gl/mxcwCxWhH1TXBC8c9",
-    },
-    {
-      title_ceremony: "Reception",
-      image: "/assets/reception_w.png",
-      date: "Sunday, March 15th 2026",
-      venue: "The Ashok Hotel",
-      venue_address: <>50-B, Diplomatic Enclave,<br /> Chanakyapuri, New Delhi – 110021</>,
-      time: "8pm Onwards",
-      link: "https://maps.app.goo.gl/f599YkTSEYKDEK5L7",
-    },
+    // {
+    //   title_ceremony: "Shaadi",
+    //   image: "/assets/shaadi_w.png",
+    //   date: "Friday, March 13th 2026",
+    //   venue: "The Leela Palace",
+    //   venue_address: <>Africa Ave, Diplomatic Enclave, Chanakyapuri,<br /> Delhi 110023</>,
+    //   time: "4:00pm Onwards",
+    //   link: "https://maps.app.goo.gl/mxcwCxWhH1TXBC8c9",
+    // },
+    // {
+    //   title_ceremony: "Reception",
+    //   image: "/assets/reception_w.png",
+    //   date: "Sunday, March 15th 2026",
+    //   venue: "The Ashok Hotel",
+    //   venue_address: <>50-B, Diplomatic Enclave,<br /> Chanakyapuri, New Delhi – 110021</>,
+    //   time: "8pm Onwards",
+    //   link: "https://maps.app.goo.gl/f599YkTSEYKDEK5L7",
+    // },
 
 
   ];
@@ -161,11 +161,12 @@ export default function Home() {
         {playing ? "⏸" : "▶"}
       </button>
 
-      <audio ref={audioRef} src="/assets/background_song.mp3" loop preload="auto" playsInline />
+      <audio ref={audioRef} src="/assets/background_song_rohit.mp3" loop preload="auto" playsInline />
 
       <div className="
-    bg-[url('/assets/hitched_mobilebg.webp')]
-    md:bg-[url('/assets/hitched_desktopbg.webp')]
+    bg-[url('/assets/rohit_mobilebg.webp')]
+    3xl:bg-[url('/assets/rohit_desktopbg.webp')]
+    md:bg-[url('/assets/rohit_desktopbg2.webp')]
     bg-cover bg-no-repeat bg-top md:bg-center w-full px-4 sm:px-8 overflow-hidden relative">
 
 
@@ -256,21 +257,21 @@ export default function Home() {
         {/* <FallingLamps /> */}
 
 
-        <div className=" md:pt-24 pt-4 md:pb-50 lg:pb-160 relative z-10 pb-24">
+        <div className=" md:pt-24 pt-4 md:pb-50 lg:pb-60 relative z-10 pb-24">
           <h2 className="text-[#15528A]  text-center leading-tight text-[30px] sm:text-5xl lg:text-[100px] md:pb-370 pb-0 flex flex-col items-center gap-y-2">
-           <span className="font-parisienne [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)]">
-  Dhiraj
-</span>
+            <span className="font-parisienne [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)]">
+              Rohit
+            </span>
             <span className="text-xl sm:text-3xl tracking-[10px] font-cormorant [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)]">WEDS</span>
-            <span className="font-parisienne [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)]">Ritika</span>
+            <span className="font-parisienne [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)]">Deeksha</span>
           </h2>
 
-          <div className="flex flex-col items-center text-center gap-6 mt-0  lg:pt-200 pt-150">
-            <img
+          <div className="flex flex-col items-center text-center gap-6 mt-0  lg:pt-250 pt-150">
+            {/* <img
               src="/assets/ganesh_inter.png"
               alt="ganesh"
               className="md:w-40 w-28 h-auto"
-            />
+            /> */}
             <h2 className="text-white md:text-2xl text-[17px] text-center">
               || श्री गणेशाय नमः ||
             </h2>
@@ -281,15 +282,15 @@ export default function Home() {
             </h2>
 
 
-            <h2 className="text-white lg:text-[30px] md:text-2xl text-[20px] font-Cormorant-upright">
+            {/* <h2 className="text-white lg:text-[30px] md:text-2xl text-[20px] font-Cormorant-upright">
               With the heavenly blessings of
               <br /> Late Smt. Kamla Kapoor
-            </h2>
+            </h2> */}
 
             <hr className="lg:w-24 w-16 border-white my-4" />
 
             <h2 className="text-white font-Cormorant-upright lg:text-[34px] md:text-2xl text-[26px]">
-              The Kapoor Family
+              The Bhawnani Family
             </h2>
           </div>
 
@@ -307,13 +308,13 @@ export default function Home() {
 
             <h2 className="text-white font-Cormorant-upright text-center mt-14
             md:text-5xl text-[64px] lg:text-[100px] leading-tight font-bold">
-              Ritika
+              Rohit
             </h2>
 
 
             <p className="text-white font-Cormorant-upright lg:text-[30px] md:text-2xl mt-2 text-[16px]">
-              (D/o Mrs. Kalpana kapoor and Mr. Raj Kapoor)
-              <br /> (Granddaughter of Shri J.S. Kapoor)
+              (S/o Mrs. Kanchan and Mr. Sanjay Bhawnani)
+              <br /> (GrandSon of Kanta & Kamal Bhawnani)
             </p>
 
 
@@ -323,11 +324,11 @@ export default function Home() {
             text-[64px] sm:text-7xl lg:text-[100px] leading-tight font-bold">
               <span className="text-white font-Cormorant-upright text-center lg:mt-10 mt-4 
             md:text-5xl text-[82px] lg:text-[150px] leading-tight">&</span>   <br />
-              Dhiraj
+              Deeksha
             </h2>
 
             <p className="text-white font-Cormorant-upright lg:text-[30px] md:text-2xl text-[16px] mt-2">
-              (S/o Mrs. Reena and Mr. Manjit Singh)
+              (D/o Mrs. Sarita and Mr. Pradeep Jain)
             </p>
 
             <p className="text-white font-Cormorant-upright lg:text-3xl md:text-2xl text-[24px] mt-8">
@@ -373,67 +374,50 @@ export default function Home() {
           </div>
 
 
-        <div className="lg:h-350 md:h-180 h-86 md:pt-20 pt-30 md:pr-180 pr-40 flex flex-col justify-end items-center text-center md:pb-0 pb-10">
+          <div className="lg:h-350 md:h-180 h-86 md:pt-0 pt-30 md:pr-180 pr-40 flex flex-col justify-end items-center text-center md:pb-80 pb-10">
 
-          <h1 className="lg:text-3xl md:text-xl text-xl text-[#E1EF1E] font-cormorant">
-            MEET THE
-          </h1>
+            <h1 className="lg:text-3xl md:text-xl text-xl text-[#E1EF1E] font-cormorant md:pb-12">
+              MEET THE
+            </h1>
 
-          <h2 className="lg:text-[130px] md:text-2xl text-6xl text-[#00EAFF] lg:pt-12 pt-6 font-Cormorant-upright md:leading-12 leading-8">
-            <span className="text-[#ADBAFF]">Bride</span> <br />
-            & <br />
-            <span className="text-[#3FA9FF]">Groom</span>
-          </h2>
-      </div>
+            <h2 className="lg:text-[130px] md:text-2xl text-6xl text-[#00EAFF] lg:pt-0 pt-6 font-Cormorant-upright md:leading-12 leading-8">
+              <span className="text-[#ADBAFF]">Bride</span> <br />
+              & <br />
+              <span className="text-[#3FA9FF]">Groom</span>
+            </h2>
+          </div>
 
         </div>
       </div>
 
 
-      {/* <div className="md:bg-[url('/assets/meet.png')] bg-[url('/assets/meet_mobile.jpg')] bg-cover bg-no-repeat bg-center">
-        <div className="lg:h-350 md:h-180 h-86 md:pt-20 md:pr-100 pr-40 flex flex-col justify-center items-center text-center">
+      <div className="hidden md:block bg-[url('/assets/moon.png')] bg-cover bg-no-repeat">
+        <div className="lg:h-335 md:h-180 flex 3xl:pt-110 lg:pt-90 md:pt-50 3xl:h-410 justify-center">
 
-          <h1 className="lg:text-3xl md:text-xl text-2xl text-[#E1EF1E] font-Cormorant">
-            MEET THE
-          </h1>
-
-          <h2 className="lg:text-[130px] md:text-2xl text-3xl text-[#00EAFF] lg:pt-12 font-Cormorant-upright md:leading-12 leading-8">
-            <span className="text-[#ADBAFF]">Bride</span> <br />
-            & <br />
-            <span className="text-[#3FA9FF]">Groom</span>
-          </h2>
-        </div>
-      </div> */}
-
-
-
-      <div className="hidden md:block bg-[url('/assets/bride1.png')] bg-cover bg-no-repeat bg-center">
-        <div className="lg:h-320 md:h-180 flex pt-80 justify-center">
-          <img src="/assets/logo.png" alt="logo" className="w-32 h-48 md:w-40 lg:w-60" />
         </div>
       </div>
 
 
-      {/* mobile visible section */}
-      <div className="md:hidden bg-[url('/assets/bide_mobilet.jpg')] bg-cover bg-no-repeat">
-        <div className="h-210 flex  justify-center pt-70">
-          <img src="/assets/logo.png" alt="logo" className="w-32 h-28 md:w-40 lg:w-48" />
+
+      <div className="md:hidden relative flex items-start justify-center">
+
+        <img
+          src="/assets/moonmobile.png"
+          alt="background"
+          className="w-full h-full object-contain"
+        />
+
+        <div className="absolute top-[25svh] left-0 right-0 flex justify-center">
+
         </div>
+
       </div>
+
       <CoupleMessage />
+
       <MarriageCountdown />
 
-      {/* <div className="fixed top-5 left-5 z-50">
-  <a href="https://invitearc.com/">
-    <button className="flex items-center gap-3 border-white border-2 bg-white/0 backdrop-blur text-white px-6 py-3 rounded-full shadow-lg cursor-pointer">    
-      <span className="text-3xl leading-none">←</span>
-      <span className="text-[16px] font-semibold">
-        Exit Preview
-      </span>
 
-    </button>
-  </a>
-</div> */}
     </div>
   );
 }
