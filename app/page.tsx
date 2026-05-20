@@ -50,7 +50,8 @@ export default function Home() {
       venue: "The Central Park Hotel",
       venue_address: <>Bund Garden Road, Agarkar Nagar, <br />   Pune, Maharashtra, 411001</>,
       time: "4pm Onwards",
-      theme: <><b>Theme:-</b> Pretty in Pink Florals,<br/> Pastels & Pink Hues</>,
+      theme: <><b>Theme:-</b> Pretty in Pink: <br/> Florals, Pastels & Pink Hues</>,
+      notes:<>Note: Themes optional, vibes unmatched</>,
       link: "https://maps.app.goo.gl/fKxi3eDGsTSd5Aaz6?g_st=ic",
     },
 
@@ -61,7 +62,8 @@ export default function Home() {
       venue: "The Central Park Hotel",
       venue_address: <>Bund Garden Road, Agarkar Nagar, <br />   Pune, Maharashtra, 411001</>,
       time: "8pm Onwards",
-      theme: <><b>Theme:-</b> Glitz and Glam</>,
+      theme: <><b>Theme:-</b> Glitz & Glam: <br/> Shimmer, sequins & statement fits</>,
+      notes:<>Note: Themes optional, vibes unmatched</>,
       link: "https://maps.app.goo.gl/fKxi3eDGsTSd5Aaz6?g_st=ic",
     },
     {
@@ -71,7 +73,8 @@ export default function Home() {
       venue: "The Central Park Hotel",
       venue_address: <>Bund Garden Road, Agarkar Nagar, <br />   Pune, Maharashtra, 411001</>,
       time: "5pm Onwards",
-      theme: <><b>Theme:-</b> Timeless Royalty, Elegant <br/> Ethnic & Royal Silhouettes</>,
+      theme: <><b>Theme:-</b> Timeless Royalty:<br/> Elegant Ethnic & Royal Silhouettes</>,
+      notes:<>Note: Themes optional, vibes unmatched</>,
       link: "https://maps.app.goo.gl/fKxi3eDGsTSd5Aaz6?g_st=ic",
     },
 
@@ -137,7 +140,7 @@ export default function Home() {
       <audio ref={audioRef} src="/assets/background_song_rohit.mp3" loop preload="auto" playsInline />
 
       <div className="
-    bg-[url('/assets/rohit_mobilebg2.jpg')]
+    bg-[url('/assets/rohit_mobilebgn.webp')]
     3xl:bg-[url('/assets/rohit_desktopbg.webp')]
     md:bg-[url('/assets/rohit_desktopbg2.webp')]
     bg-cover bg-no-repeat bg-top md:bg-center w-full px-4 sm:px-8 overflow-hidden relative">
@@ -287,7 +290,7 @@ export default function Home() {
 
             <p className="text-white font-Cormorant-upright lg:text-[30px] md:text-2xl mt-2 text-[16px]">
               (Grandson of Mrs. Kanta & Mr. Kamal Bhawnani)
-              <br />(S/o Mrs. Kanchan & Mr. Sanjay Bhawnani)
+              <br />(Son of Mrs. Kanchan & Mr. Sanjay Bhawnani)
             </p>
 
 
@@ -301,7 +304,7 @@ export default function Home() {
             </h2>
 
             <p className="text-white font-Cormorant-upright lg:text-[30px] md:text-2xl text-[16px] mt-2">
-              (D/o Mrs. Sarita & Mr. Pradeep Jain)
+              (Daughter of Mrs. Sarita & Mr. Pradeep Jain)
             </p>
 
             <p className="text-white font-Cormorant-upright lg:text-3xl md:text-2xl text-[24px] mt-8">
@@ -327,21 +330,15 @@ export default function Home() {
 
                   <p className="text-white font-Cormorant-upright text-[14px] sm:text-base mt-2">
                     <span className="text-[22px]">{event.date}</span>  <br />
-                    <span className="text-[24px] uppercase"> {event.venue}</span> <br />
-                    <span className="text-[20px]">{event.venue_address}</span> <br />
+                    
+                    
                     <span className="text-[22px]">  {event.time} </span>
                   </p>
  <p className="text-white font-Cormorant-upright text-[14px] sm:text-base mt-2">
                     <span className="text-[20px]">{event.theme}</span></p>
-                  <a
-                    href={event.link}
-                    className="text-white underline md:text-sm text-[18px] mt-2 font-cormorant"
-                    target="_blank"
-                  >
-                    See the route
-                  </a>
-
-
+                    <p className="text-white font-Cormorant-upright text-[14px] sm:text-base mt-2">
+                    <span className="text-[20px]">{event.notes}</span></p>
+               
                 </div>
               ))}
             </div>

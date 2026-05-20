@@ -11,8 +11,8 @@ import "swiper/css/pagination";
 export default function CoupleMessage() {
   return (
     <>
-      <div className="md:bg-[url('/assets/couple_bgt.png')] bg-[url('/assets/desktop_couple_bg.jpg')] bg-cover bg-no-repeat">
-        <div className="lg:h-850 md:h-350 h-560 pt-2 flex flex-col  items-center">
+      <div className="md:bg-[url('/assets/couple_bgt.png')] bg-[url('/assets/couple_mobilebgn.webp')] bg-cover bg-no-repeat">
+        <div className="lg:h-850 md:h-350 h-610 pt-2 flex flex-col  items-center">
           <h1 className="lg:text-[40px] md:text-3xl text-[32px] text-center text-[#FFF5B9] lg:pt-36 pt-12 font-Cormorant-upright px-6 leading-12">
             A message from the couple
           </h1>
@@ -98,8 +98,30 @@ export default function CoupleMessage() {
             we’ve gathered a few thoughtful details we’d love for you to know
             before the big day.
           </h2>
-          <div className="flex justify-center mt-20 pb-24">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 lg:gap-24 gap-10 sm:gap-16">
+          <div className="flex justify-center mt-10 pb-24">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-24 gap-10 sm:gap-16">
+<div className="flex flex-col items-center justify-center text-center md:mt-15">
+                <img
+                  src="/assets/hotel.png"
+                  alt="car"
+                  className="lg:h-20 lg:w-24 h-26 w-32 "
+                />
+                <h2 className="lg:text-[32px] text-[50px] text-[#FFF5B9] mt-2 font-Cormorant-upright">
+                  Location
+                </h2>
+                 <span className="md:text-[20px] text-[16px] md:leading-5 text-[#FFF5B9] mt-1 font-cormorant"> The Central Park Hotel</span>
+                <p className="md:text-[18px] text-[14px] md:leading-5 text-[#FFF5B9] mt-1 font-cormorant">
+                  Bund Garden Road,<br /> Agarkar Nagar, Pune,  <br />   Maharashtra, 411001
+                </p>
+                   <a
+                    href="https://maps.app.goo.gl/fKxi3eDGsTSd5Aaz6?g_st=ic"
+                    className="text-[#FFF5B9] underline md:text-sm md:text-[16px] text-[14px] mt-2 font-cormorant"
+                    target="_blank"
+                  >
+                    See the route
+                  </a>
+              </div>
+
               <div className="flex flex-col items-center justify-center text-center">
                 <img
                   src="/assets/weather_h.png"
@@ -130,6 +152,8 @@ A little rain never stopped a good celebration anyway.
                   at the venue.
                 </p>
               </div>
+
+               
             </div>
           </div>
 
@@ -139,10 +163,10 @@ A little rain never stopped a good celebration anyway.
             </h2>
             <div className="flex flex-col-1 md:gap-4 gap-2 justify-center items-center md:not-first:mt-4 ">
               <a href="https://wa.link/5ad8dn" target="_blank">
-                <img src="/assets/whatsapp.png" alt="" className="lg:h-10 lg:w-10 h-6 w-6" />
+                <img src="/assets/whatsapp.png" alt="" className="lg:h-10 lg:w-10 h-4 w-4" />
               </a>
-              <h2 className="lg:text-3xl text-[18px] text-center text-[#FFF5B9]  font-Cormorant-upright">
-                Click the Link to RSVP
+              <h2 className="lg:text-3xl text-[16px] text-center text-[#FFF5B9]  font-Cormorant-upright">
+                Click on the Whatsapp icon to RSVP
               </h2>
             </div>
           </div>
