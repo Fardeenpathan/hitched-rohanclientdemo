@@ -61,7 +61,7 @@ export default function Home() {
       venue: "The Central Park Hotel",
       venue_address: <>Bund Garden Road, Agarkar Nagar, <br />   Pune, Maharashtra, 411001</>,
       time: "8pm Onwards",
-      theme: <><b>Theme:-</b> Glitz & Glam: <br/> Shimmer, sequins & statement fits</>,
+      theme: <><b>Theme:-</b> Glitz & Glam: <br/> Shimmer, sequins & Statement Fits</>,
       link: "https://maps.app.goo.gl/fKxi3eDGsTSd5Aaz6?g_st=ic",
     },
     {
