@@ -58,6 +58,15 @@ export default function CoupleMessage() {
               modules={[EffectCoverflow, Pagination, Autoplay]}
               className="mySwiper"
             >
+              <SwiperSlide>
+                <img src="/assets/bridecouple_img_1.png"/>
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src="/assets/bridecouple_img_2.png"/>
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src="/assets/bridecouple_img_3.png"/>
+              </SwiperSlide>
              <SwiperSlide>
                 <img src="/assets/couple_img_1.png"/>
               </SwiperSlide>

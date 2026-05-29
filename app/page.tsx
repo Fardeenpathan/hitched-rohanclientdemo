@@ -48,7 +48,7 @@ export default function Home() {
       image: "/assets/mehandi.png",
       date: "Saturday, 20th June 2026",
       venue: "The Central Park Hotel",
-      venue_address: <>Bund Garden Road, Agarkar Nagar, <br />   Pune, Maharashtra, 411001</>,
+      venue_address: <>Venue: The Pavilion hall</>,
       time: "4pm Onwards",
       theme: <><b>Theme:-</b> Pretty in Pink: <br/> Florals, Pastels & Pink Hues</>,
       link: "https://maps.app.goo.gl/fKxi3eDGsTSd5Aaz6?g_st=ic",
@@ -59,7 +59,7 @@ export default function Home() {
       image: "/assets/cocktail_w.png",
       date: "Saturday, 20th June 2026",
       venue: "The Central Park Hotel",
-      venue_address: <>Bund Garden Road, Agarkar Nagar, <br />   Pune, Maharashtra, 411001</>,
+      venue_address: <>Venue: The Pavilion hall</>,
       time: "8pm Onwards",
       theme: <><b>Theme:-</b> Glitz & Glam: <br/> Shimmer, sequins & Statement Fits</>,
       link: "https://maps.app.goo.gl/fKxi3eDGsTSd5Aaz6?g_st=ic",
@@ -69,7 +69,7 @@ export default function Home() {
       image: "/assets/engagement_w.png",
       date: "Sunday, 21st June 2026",
       venue: "The Central Park Hotel",
-      venue_address: <>Bund Garden Road, Agarkar Nagar, <br />   Pune, Maharashtra, 411001</>,
+      venue_address: <>Venue: The Pavilion hall</>,
       time: "5pm Onwards",
       theme: <><b>Theme:-</b> Timeless Royalty:<br/> Elegant Ethnic & Royal Silhouettes</>,
       link: "https://maps.app.goo.gl/fKxi3eDGsTSd5Aaz6?g_st=ic",
@@ -237,6 +237,9 @@ export default function Home() {
             </span>
             <span className="text-[12px] sm:text-3xl tracking-[10px] font-cormorant [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)]">WEDS</span>
             <span className="font-parisienne [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)]">Deeksha</span>
+            <p className="font-Cormorant-upright lg:text-4xl md:text-2xl text-[20px] font-bold md:mt-4">
+              #RoSaysIDee
+            </p>
           </h2>
 
           <div className="flex flex-col items-center text-center gap-6 mt-0  lg:pt-250 pt-150 md:pt-0">
@@ -334,7 +337,8 @@ export default function Home() {
  <p className="text-white font-Cormorant-upright text-[14px] sm:text-base mt-2">
                     <span className="text-[20px]">{event.theme}</span></p>
                   
-               
+               <p className="text-white font-Cormorant-upright text-[14px] sm:text-base mt-2">
+                    <span className="text-[20px]">{event.venue_address}</span></p>
                 </div>
               ))}
             </div>
@@ -363,8 +367,10 @@ export default function Home() {
 
 
       <div className="hidden md:block bg-[url('/assets/moon.webp')] bg-cover bg-no-repeat">
-        <div className="lg:h-335 md:h-180 flex 3xl:pt-110 lg:pt-90 md:pt-50 3xl:h-410 justify-center">
-
+        <div className="lg:h-335 md:h-180 flex 3xl:pt-65 lg:pt-50 md:pt-25 3xl:h-410 justify-center">
+<p className="font-Cormorant-upright lg:text-7xl md:text-4xl text-[34px] font-bold md:mt-4 text-white">
+              #RoSaysIDee
+            </p>
         </div>
       </div>
 
@@ -378,8 +384,10 @@ export default function Home() {
           className="w-full h-full object-contain"
         />
 
-        <div className="absolute top-[25svh] left-0 right-0 flex justify-center">
-
+        <div className="absolute top-[12svh] left-0 right-0 flex justify-center">
+ <p className="font-Cormorant-upright lg:text-4xl md:text-2xl text-[34px] font-bold md:mt-4 text-white">
+              #RoSaysIDee
+            </p>
         </div>
 
       </div>
