@@ -240,7 +240,7 @@ export default function CoupleMessage() {
                   <img
                     src="/assets/duties.png"
                     alt="weather"
-                    className="lg:h-24 lg:w-24 h-26 w-32 "
+                    className="lg:h-24 lg:w-24 h-30 w-32 "
                   />
                   <h2 className="lg:text-[32px] text-[40px] text-[#FFF5B9] mt-2 font-Cormorant-upright">
                     Guest Duties

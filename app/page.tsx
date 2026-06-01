@@ -291,7 +291,7 @@ export default function Home() {
 
 
             <h2 className="text-white font-Cormorant-upright text-center mt-14
-            md:text-5xl text-[64px] lg:text-[100px] leading-tight font-bold">
+            md:text-5xl text-[50px] lg:text-[100px] leading-tight font-bold">
               Rohan Kharbanda
             </h2>
 
@@ -305,7 +305,7 @@ export default function Home() {
 
 
             <h2 className="text-white font-Cormorant-upright text-center mt-4
-            text-[64px] sm:text-7xl lg:text-[100px] leading-tight font-bold">
+            text-[50px] sm:text-7xl lg:text-[100px] leading-tight font-bold">
               <span className="text-white font-Cormorant-upright text-center lg:mt-10 mt-4 
             md:text-5xl text-[82px] lg:text-[150px] leading-tight">&</span>   <br />
               Devna Chawla
