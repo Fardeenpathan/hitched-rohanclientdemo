@@ -44,35 +44,43 @@ const FloatingLamp = ({ className, style, reverse = false }: { className: string
 export default function Home() {
   const events = [
     {
-      title_ceremony: "Haldi + Mehendi",
-      image: "/assets/mehandi.png",
-      date: "Saturday, 20th June 2026",
-      venue: "The Central Park Hotel",
-      venue_address: <>Venue: The Pavilion hall</>,
-      time: "4pm Onwards",
-      theme: <><b>Theme:-</b> Pretty in Pink: <br/> Florals, Pastels & Pink Hues</>,
-      link: "https://maps.app.goo.gl/fKxi3eDGsTSd5Aaz6?g_st=ic",
+      Main_title_ceremony: "The RD Soirée",
+      title_ceremony: "Sagan/Cocktail",
+      image: "/assets/cocktail_w.png",
+      date: "Monday, 30th November 2026",
+      venue: "Oodles Hotel Chhattarpur",
+      venue_address: <> Plot 759 762, Main Chhatarpur Rd, Block C,<br /> Chhatarpur Extension, Chhatarpur,<br /> New Delhi, Delhi 110074</>,
+      time: "7pm onwards",
+      // theme: <><b>Theme:-</b> Glitz & Glam: <br/> Shimmer, sequins & Statement Fits</>,
+      link: "https://share.google/9022apDOsGRfxYGGb",
+    },
+    {
+      Main_title_ceremony: "Haldi Hues",
+      title_ceremony: "Haldi",
+      image: "/assets/haldi.png",
+      date: "Tuesday, 1st December 2026",
+      venue: "Oodles Hotel Chhattarpur",
+      venue_address: <> Plot 759 762, Main Chhatarpur Rd, Block C,<br /> Chhatarpur Extension, Chhatarpur,<br /> New Delhi, Delhi 110074</>,
+      time: "12pm onwards",
+      // theme: <><b>Theme:-</b> Pretty in Pink: <br/> Florals, Pastels & Pink Hues</>,
+      link: "https://share.google/9022apDOsGRfxYGGb",
+      Main_title_ceremony2: "Mehfil e Mehndi",
+      title_ceremony2: "Mehandi",
+      image2: "/assets/mehandi.png",
+      time2: "7pm onwards",
     },
 
+
     {
-      title_ceremony: "Engagement + Sangeet",
-      image: "/assets/cocktail_w.png",
-      date: "Saturday, 20th June 2026",
-      venue: "The Central Park Hotel",
-      venue_address: <>Venue: The Pavilion hall</>,
-      time: "8pm Onwards",
-      theme: <><b>Theme:-</b> Glitz & Glam: <br/> Shimmer, sequins & Statement Fits</>,
-      link: "https://maps.app.goo.gl/fKxi3eDGsTSd5Aaz6?g_st=ic",
-    },
-    {
-      title_ceremony: "Wedding + Reception",
+      Main_title_ceremony: "Outh of Love",
+      title_ceremony: "Wedding",
       image: "/assets/engagement_w.png",
-      date: "Sunday, 21st June 2026",
-      venue: "The Central Park Hotel",
-      venue_address: <>Venue: The Pavilion hall</>,
-      time: "5pm Onwards",
-      theme: <><b>Theme:-</b> Timeless Royalty:<br/> Elegant Ethnic & Royal Silhouettes</>,
-      link: "https://maps.app.goo.gl/fKxi3eDGsTSd5Aaz6?g_st=ic",
+      date: "Wednesday, 2nd December 2026",
+      venue: "Cinderella Farms by Bel-laMonde",
+      venue_address: <>673, Main Chhatarpur Rd, Rajpur Khurd Village,<br /> Chhatarpur, New Delhi, <br />Delhi 110074</>,
+      time: "9pm onwards",
+      // theme: <><b>Theme:-</b> Timeless Royalty:<br/> Elegant Ethnic & Royal Silhouettes</>,
+      link: "https://share.google/JVMSyNgYaqRwjhJiY",
     },
 
   ];
@@ -134,11 +142,11 @@ export default function Home() {
         {playing ? "⏸" : "▶"}
       </button>
 
-      <audio ref={audioRef} src="/assets/background_song_rohit.mp3" loop preload="auto" playsInline />
+      <audio ref={audioRef} src="/assets/background_song_rohan.mp3" loop preload="auto" playsInline />
 
       <div className="
-    bg-[url('/assets/rohit_mobilebgn.webp')]
-    3xl:bg-[url('/assets/rohit_desktopbg.webp')]
+    bg-[url('/assets/bride__mobilebg22.jpg')]
+    3xl:bg-[url('/assets/rohan_desktopbg2.jpg')]
     md:bg-[url('/assets/rohit_desktopbg2.webp')]
     bg-cover bg-no-repeat bg-top md:bg-center w-full px-4 sm:px-8 overflow-hidden relative">
 
@@ -233,40 +241,40 @@ export default function Home() {
         <div className=" md:pt-24 pt-4 md:pb-50 lg:pb-60 relative z-10 pb-24">
           <h2 className="text-[#15528A]  text-center leading-tight text-[32px] sm:text-5xl lg:text-[100px] md:pb-370 pb-0 flex flex-col items-center gap-y-2 ">
             <span className="font-parisienne [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)] font-extrabold">
-              Rohit
+              Rohan Kharbanda
             </span>
             <span className="text-[12px] sm:text-3xl tracking-[10px] font-cormorant [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)]">WEDS</span>
-            <span className="font-parisienne [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)]">Deeksha</span>
-            <p className="font-Cormorant-upright lg:text-4xl md:text-2xl text-[20px] font-bold md:mt-4">
+            <span className="font-parisienne [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)]">Devna Chawla</span>
+            {/* <p className="font-Cormorant-upright lg:text-4xl md:text-2xl text-[20px] font-bold md:mt-4">
               #RoSaysIDee
-            </p>
+            </p> */}
           </h2>
 
           <div className="flex flex-col items-center text-center gap-6 mt-0  lg:pt-250 pt-150 md:pt-0">
-            {/* <img
+            <img
               src="/assets/ganesh_inter.png"
               alt="ganesh"
               className="md:w-40 w-28 h-auto"
-            /> */}
-            {/* <h2 className="text-white md:text-2xl text-[17px] text-center">
+            />
+            <h2 className="text-white md:text-2xl text-[17px] text-center">
               || श्री गणेशाय नमः ||
             </h2>
-            <h2 className="text-white md:text-2xl text-[17px] text-center">
+            {/* <h2 className="text-white md:text-2xl text-[17px] text-center">
               वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ।
               <br />
               निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा॥
-            </h2> */}
+            </h2>  */}
 
 
-            {/* <h2 className="text-white lg:text-[30px] md:text-2xl text-[20px] font-Cormorant-upright">
-              With the heavenly blessings of
-              <br /> Late Smt. Kamla Kapoor
-            </h2> */}
+            <h2 className="text-white lg:text-[30px] md:text-2xl text-[20px] font-Cormorant-upright">
+              With the joyful hearts and blessings from
+              <br /> <b>Late Smt. Jatto bai & Shri Sidhu Ram k</b>
+            </h2>
 
-          
+
 
             <h2 className="text-white font-Cormorant-upright lg:text-[34px] md:text-2xl text-[26px]">
-              The Bhawnani Family
+              The Kharbanda Family
             </h2>
           </div>
 
@@ -284,13 +292,13 @@ export default function Home() {
 
             <h2 className="text-white font-Cormorant-upright text-center mt-14
             md:text-5xl text-[64px] lg:text-[100px] leading-tight font-bold">
-              Rohit
+              Rohan Kharbanda
             </h2>
 
 
             <p className="text-white font-Cormorant-upright lg:text-[30px] md:text-2xl mt-2 text-[16px]">
-              (Grandson of Mrs. Kanta & Mr. Kamal Bhawnani)
-              <br />(Son of Mrs. Kanchan & Mr. Sanjay Bhawnani)
+            <b> (Grandson of Late Smt. Jatto bai & Shri Sidhu Ram k)</b> 
+              <br />(Son of Mrs. Raj kharbanda & Mr. Ashok Kharbanda)
             </p>
 
 
@@ -300,11 +308,12 @@ export default function Home() {
             text-[64px] sm:text-7xl lg:text-[100px] leading-tight font-bold">
               <span className="text-white font-Cormorant-upright text-center lg:mt-10 mt-4 
             md:text-5xl text-[82px] lg:text-[150px] leading-tight">&</span>   <br />
-              Deeksha
+              Devna Chawla
             </h2>
 
             <p className="text-white font-Cormorant-upright lg:text-[30px] md:text-2xl text-[16px] mt-2">
-              (Daughter of Mrs. Sarita & Mr. Pradeep Jain)
+             <b>(Granddaughter of Smt. Krishna chawla & Shri Rishi lal chawla)</b>  <br />
+              (Daughter of Mrs. Alka Chawla & Late kaushal chawla)
             </p>
 
             <p className="text-white font-Cormorant-upright lg:text-3xl md:text-2xl text-[24px] mt-8">
@@ -312,7 +321,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="flex justify-center mt-20">
+          {/* <div className="flex justify-center mt-20">
             <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 lg:gap-32 gap-16 ">
               {events.map((event, i) => (
                 <div key={i} className="flex flex-col items-center text-center">
@@ -343,11 +352,69 @@ export default function Home() {
               ))}
             </div>
            
+          </div> */}
+
+
+          <div className="flex justify-center mt-20">
+            <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 lg:gap-32 gap-16 ">
+              {events.map((event, i) => (
+                <div key={i} className="flex flex-col items-center text-center">
+                  <img
+                    src={event.image}
+                    alt={event.venue}
+                    className="lg:w-80 w-60 sm:w-76  h-auto"
+                  />
+
+                  <h2 className="text-white font-Cormorant-upright lg:text-[45px] md:text-2xl text-[35px] mt-4 font-bold">
+                    {event.Main_title_ceremony}
+                  </h2>
+                   <h2 className="text-white font-Cormorant-upright lg:text-[30px] md:text-2xl text-[25px] font-bold">
+                    {event.title_ceremony}
+                  </h2>
+                  <p className="text-white font-Cormorant-upright text-[14px] sm:text-base">
+                    <span className="text-[22px]">  {event.time} </span>
+                  </p>
+                  {event.image2 && (<img
+                    src={event.image2}
+                    alt={event.venue}
+                    className="lg:w-80 w-60 sm:w-76  h-auto mt-6"
+                  />)}
+                   <h2 className="text-white font-Cormorant-upright lg:text-[45px] md:text-2xl text-[35px] font-bold">
+                    {event.Main_title_ceremony2}
+                  </h2>
+
+                  <h2 className="text-white font-Cormorant-upright lg:text-[30px] md:text-2xl text-[25px] font-bold">
+                    {event.title_ceremony2}
+                  </h2>
+                  <p className="text-white font-Cormorant-upright text-[14px] sm:text-base ">
+                    <span className="text-[22px]">  {event.time2} </span>
+                  </p>
+                  <p className="text-white font-Cormorant-upright text-[14px] sm:text-base mt-2">
+                    <span className="text-[22px]">{event.date}</span>  <br />
+                    <span className="text-[24px] uppercase"> {event.venue}</span> <br />
+                    <span className="text-[20px]">{event.venue_address}</span>
+
+                  </p>
+
+                  <a
+                    href={event.link}
+                    className="text-white underline md:text-sm text-[18px] mt-2 font-cormorant"
+                    target="_blank"
+                  >
+                    See the route
+                  </a>
+
+
+                </div>
+              ))}
+            </div>
           </div>
- 
-<div className="flex justify-center md:mt-20 mt-10"><p className="text-white font-Cormorant-upright text-[14px] sm:text-base mt-2">
+
+
+
+          {/* <div className="flex justify-center md:mt-20 mt-10"><p className="text-white font-Cormorant-upright text-[14px] sm:text-base mt-2">
                     <span className="text-[22px] md:text-[24px]">Note: Themes optional, vibes unmatched</span></p>
-</div>
+</div> */}
 
           <div className="lg:h-350 md:h-180 h-86 md:pt-0 pt-30 lg:pr-180 pr-40 md:pr-50  flex flex-col justify-end items-center text-center lg:pb-80 md:pb-40 pb-10">
 
@@ -366,11 +433,16 @@ export default function Home() {
       </div>
 
 
-      <div className="hidden md:block bg-[url('/assets/moon.webp')] bg-cover bg-no-repeat">
-        <div className="lg:h-335 md:h-180 flex 3xl:pt-65 lg:pt-50 md:pt-25 3xl:h-410 justify-center">
-<p className="font-Cormorant-upright lg:text-7xl md:text-4xl text-[34px] font-bold md:mt-4 text-white">
-              #RoSaysIDee
-            </p>
+      <div className="hidden md:block bg-[url('/assets/bride.jpg')] bg-cover bg-no-repeat">
+        <div className="lg:h-335 md:h-180 flex 3xl:pt-90 lg:pt-80 md:pt-40 3xl:h-410 justify-center">
+          {/* <p className="font-Cormorant-upright lg:text-7xl md:text-4xl text-[34px] font-bold md:mt-4 text-white">
+            #RoSaysIDee
+          </p> */}
+           <img
+          src="/assets/logo.png"
+          alt="background"
+          className="h-60 w-110 md:h-35 md:w-50"
+        />
         </div>
       </div>
 
@@ -379,15 +451,18 @@ export default function Home() {
       <div className="md:hidden relative flex items-start justify-center">
 
         <img
-          src="/assets/moon_mobile2.webp"
+          src="/assets/bride_mobile.jpg"
           alt="background"
           className="w-full h-full object-contain"
         />
 
-        <div className="absolute top-[12svh] left-0 right-0 flex justify-center">
- <p className="font-Cormorant-upright lg:text-4xl md:text-2xl text-[34px] font-bold md:mt-4 text-white">
-              #RoSaysIDee
-            </p>
+        <div className="absolute top-[25svh] left-0 right-0 flex justify-center">
+           <img
+          src="/assets/logo.png"
+          alt="background"
+          className="h-25 w-40"
+        />
+          
         </div>
 
       </div>

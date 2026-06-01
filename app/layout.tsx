@@ -17,8 +17,8 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://hitched-clientdemo.vercel.app/"),
 
   openGraph: {
-    title: "Rohit Weds Deeksha",
-    description: "Come celebrate love, laughter & happily ever after with us!",
+    title: "Rohan & Devna",
+    description: "We invite you to celebrate our forever",
     url: "https://hitched-clientdemo.vercel.app/",
     siteName: "InviteArc",
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
         url: "/og.jpg",
         width: 1200,
         height: 630,
-        alt: "Rohit Weds Deeksha",
+        alt: "Rohan & Devna",
       },
     ],
     type: "website",
@@ -35,8 +35,8 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Rohit Weds Deeksha",
-    description: "Come celebrate love, laughter & happily ever after with us!",
+    title: "Rohan & Devna",
+    description: "We invite you to celebrate our forever",
     images: ["/og.jpg"],
   },
 
