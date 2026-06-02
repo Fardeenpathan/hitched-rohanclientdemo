@@ -11,7 +11,7 @@ export default function CoupleMessage() {
   return (
     <>
       <div className="md:bg-[url('/assets/couple_bg.jpg')] bg-[url('/assets/couple_mobilebgnrohan.jpg')] bg-cover bg-no-repeat">
-        <div className="lg:h-900 md:h-550 h-710 pt-2 flex flex-col  items-center">
+        <div className="lg:h-900 md:h-700 h-740 pt-2 flex flex-col  items-center">
           <h1 className="lg:text-[40px] md:text-3xl text-[32px] text-center text-[#FFF5B9] lg:pt-36 pt-12 font-Cormorant-upright px-6 leading-12">
             Together with our families,
           </h1>
@@ -240,7 +240,7 @@ export default function CoupleMessage() {
                   <img
                     src="/assets/duties.png"
                     alt="weather"
-                    className="lg:h-20 lg:w-24 h-26 w-32 "
+                    className="lg:h-20 lg:w-24 h-30 w-30"
                   />
                   <h2 className="lg:text-[32px] text-[40px] text-[#FFF5B9] mt-2 font-Cormorant-upright">
                     Guest Duties
@@ -273,7 +273,7 @@ export default function CoupleMessage() {
             </div>
           </div>
 
-          <div className="flex flex-col justify-center items-center 3xl:mt-30 lg:mt-70 lg:ml-140 ml-34 md:ml-50">
+          <div className="flex flex-col justify-center items-center 3xl:mt-30 lg:mt-70 lg:ml-70 ml-15 md:ml-50 mt-20">
             <h2 className="lg:text-5xl text-[22px] md:text-[30px] text-center text-[#FFF5B9] lg:pt-10 3xl:pt-30 pt-1 font-Cormorant-upright md:leading-12 leading-6">
               Looking Forward to <br /> Seeing You
             </h2>
@@ -285,7 +285,7 @@ export default function CoupleMessage() {
                 Click on the Whatsapp icon to RSVP
               </h2>
             </div> */}
-            <h2 className="lg:text-3xl md:text-xl text-[16px] text-[#FFF5B9] font-Cormorant-upright leading-tight">
+            <h2 className="lg:text-3xl md:text-xl text-[16px] text-[#FFF5B9] font-Cormorant-upright leading-tight mt-3">
               Click on the Whatsapp icon to RSVP
             </h2>
             <div className="flex md:gap-4 gap-2 justify-center items-start md:items-center md:mt-4">
@@ -302,7 +302,7 @@ export default function CoupleMessage() {
               </h2>
             </div>
 
-            <div className="flex md:gap-4 gap-2 justify-center items-start md:items-center md:mt-4">
+            <div className="flex md:gap-4 gap-2 justify-center items-start md:items-center md:mt-4 ml-1">
               <a href="https://wa.me/7838692244" target="_blank">
                 <img
                   src="/assets/whatsapp_n.png"
