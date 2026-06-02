@@ -359,6 +359,10 @@ export default function Home() {
             <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 lg:gap-32 gap-16 ">
               {events.map((event, i) => (
                 <div key={i} className="flex flex-col items-center text-center">
+                  <p className="text-white font-Cormorant-upright text-[26px] lg:text-[30px] mb-6">
+                    {event.date}
+                   
+                  </p>
                   <img
                     src={event.image}
                     alt={event.venue}
@@ -390,7 +394,7 @@ export default function Home() {
                     <span className="text-[22px]">  {event.time2} </span>
                   </p>
                   <p className="text-white font-Cormorant-upright text-[14px] sm:text-base mt-2">
-                    <span className="text-[22px]">{event.date}</span>  <br />
+                    
                     <span className="text-[24px] uppercase"> {event.venue}</span> <br />
                     <span className="text-[20px]">{event.venue_address}</span>
 
