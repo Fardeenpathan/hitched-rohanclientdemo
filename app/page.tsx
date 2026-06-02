@@ -268,7 +268,7 @@ export default function Home() {
 
             <h2 className="text-white lg:text-[30px] md:text-2xl text-[20px] font-Cormorant-upright">
               With the joyful hearts and blessings from
-              <br /> <b>Late Smt. Jatto bai & Shri Sidhu Ram k</b>
+              <br /> <b>Smt. Jatto bai & Late Shri Sidhu Ram k</b>
             </h2>
 
 
@@ -297,7 +297,7 @@ export default function Home() {
 
 
             <p className="text-white font-Cormorant-upright lg:text-[30px] md:text-2xl mt-2 text-[16px]">
-            <b> (Grandson of Late Smt. Jatto bai & Shri Sidhu Ram k)</b> 
+            <b> (Grandson of Smt. Jatto bai & Late Shri Sidhu Ram k)</b> 
               <br />(Son of Mrs. Raj kharbanda & Mr. Ashok Kharbanda)
             </p>
 
