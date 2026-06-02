@@ -44,7 +44,7 @@ export default function MarriageCountdown() {
                         With hearts full of love and joy, <br/> Rekha Kharbanda, remembering Late Vijay Kharbanda with love, along with Devender Kharbanda, Sakshi, and Nitasha, warmly invite you to celebrate this beautiful union and bless the couple as they begin their forever together.
                     </p>
                     <div className="flex flex-col-1 gap-4 justify-center items-center mt-4">
-                       <a href="https://www.instagram.com/makeupbydevnachawla/" target="_blank"><img src="/assets/instagram_w.png" alt="" className="h-10 w-10"/></a>
+                       <a href="https://www.instagram.com/theinvitearc/" target="_blank"><img src="/assets/instagram_w.png" alt="" className="h-10 w-10"/></a>
                         
                     </div>
                     <p className="lg:text-[22px] text-xl text-[#FFF5B9] mt-6 text-center font-Cormorant-upright">
