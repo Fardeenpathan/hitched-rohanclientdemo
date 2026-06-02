@@ -61,7 +61,7 @@ export default function Home() {
       date: "Tuesday, 1st December 2026",
       venue: "Oodles Hotel Chhattarpur",
       venue_address: <> Plot 759 762, Main Chhatarpur Rd, Block C,<br /> Chhatarpur Extension, Chhatarpur,<br /> New Delhi, Delhi 110074</>,
-      time: "12pm onwards",
+      time: "12noon onwards",
       // theme: <><b>Theme:-</b> Pretty in Pink: <br/> Florals, Pastels & Pink Hues</>,
       link: "https://share.google/9022apDOsGRfxYGGb",
       Main_title_ceremony2: "Mehfil e Mehndi",
@@ -257,7 +257,7 @@ export default function Home() {
               className="md:w-40 w-28 h-auto"
             />
             <h2 className="text-white md:text-2xl text-[17px] text-center">
-              || श्री गणेशाय नमः ||
+              || ॐ श्री गणेशाय नमः ||
             </h2>
             {/* <h2 className="text-white md:text-2xl text-[17px] text-center">
               वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ।
@@ -313,7 +313,7 @@ export default function Home() {
 
             <p className="text-white font-Cormorant-upright lg:text-[30px] md:text-2xl text-[16px] mt-2">
              <b>(Granddaughter of Smt. Krishna chawla & Shri Rishi lal chawla)</b>  <br />
-              (Daughter of Mrs. Alka Chawla & Late kaushal chawla)
+              (Daughter of Mrs. Alka Chawla & Late Kaushal chawla)
             </p>
 
             <p className="text-white font-Cormorant-upright lg:text-3xl md:text-2xl text-[24px] mt-8">
