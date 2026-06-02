@@ -355,7 +355,7 @@ export default function Home() {
           </div> */}
 
 
-          <div className="flex justify-center mt-20">
+          <div className="flex justify-center mt-20 md:mb-30 3xl:mb-100">
             <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 lg:gap-32 gap-16 ">
               {events.map((event, i) => (
                 <div key={i} className="flex flex-col items-center text-center">
@@ -434,10 +434,7 @@ export default function Home() {
 
 
       <div className="hidden md:block bg-[url('/assets/bride.jpg')] bg-cover bg-no-repeat">
-        <div className="lg:h-335 md:h-180 flex 3xl:pt-90 lg:pt-80 md:pt-40 3xl:h-410 justify-center">
-          {/* <p className="font-Cormorant-upright lg:text-7xl md:text-4xl text-[34px] font-bold md:mt-4 text-white">
-            #RoSaysIDee
-          </p> */}
+        <div className="lg:h-335 md:h-180 flex 3xl:pt-90 lg:pt-80 md:pt-40 3xl:h-410 justify-center"> 
            <img
           src="/assets/logo.png"
           alt="background"
@@ -460,7 +457,7 @@ export default function Home() {
            <img
           src="/assets/logo.png"
           alt="background"
-          className="h-25 w-40"
+          className="h-25 w-35"
         />
           
         </div>

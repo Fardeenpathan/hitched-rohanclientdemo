@@ -11,7 +11,7 @@ export default function CoupleMessage() {
   return (
     <>
       <div className="md:bg-[url('/assets/couple_bg.jpg')] bg-[url('/assets/couple_mobilebgnrohan.jpg')] bg-cover bg-no-repeat">
-        <div className="lg:h-850 md:h-550 h-710 pt-2 flex flex-col  items-center">
+        <div className="lg:h-900 md:h-550 h-710 pt-2 flex flex-col  items-center">
           <h1 className="lg:text-[40px] md:text-3xl text-[32px] text-center text-[#FFF5B9] lg:pt-36 pt-12 font-Cormorant-upright px-6 leading-12">
             Together with our families,
           </h1>
@@ -240,7 +240,7 @@ export default function CoupleMessage() {
                   <img
                     src="/assets/duties.png"
                     alt="weather"
-                    className="lg:h-24 lg:w-24 h-30 w-32 "
+                    className="lg:h-20 lg:w-24 h-26 w-32 "
                   />
                   <h2 className="lg:text-[32px] text-[40px] text-[#FFF5B9] mt-2 font-Cormorant-upright">
                     Guest Duties
@@ -273,7 +273,7 @@ export default function CoupleMessage() {
             </div>
           </div>
 
-          <div className="flex flex-col justify-center items-center 3xl:mt-0 lg:mt-20 lg:ml-140 ml-34 md:ml-50">
+          <div className="flex flex-col justify-center items-center 3xl:mt-30 lg:mt-70 lg:ml-140 ml-34 md:ml-50">
             <h2 className="lg:text-5xl text-[22px] md:text-[30px] text-center text-[#FFF5B9] lg:pt-10 3xl:pt-30 pt-1 font-Cormorant-upright md:leading-12 leading-6">
               Looking Forward to <br /> Seeing You
             </h2>
