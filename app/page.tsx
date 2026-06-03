@@ -234,7 +234,6 @@ export default function Home() {
         <FloatingLamp className="lg:hidden absolute top-180 right-172 w-12 h-12 transform -rotate-22 opacity-85" reverse={true} />
         <FloatingLamp className="lg:hidden absolute top-200 right-192 w-10 h-10 transform -rotate-35 opacity-85" reverse={true} />
 
-
         {/* <FallingLamps /> */}
 
         <div className=" md:pt-24 pt-4 md:pb-50 lg:pb-60 relative z-10 pb-24">
@@ -244,9 +243,7 @@ export default function Home() {
             </span> 
             <span className="text-[12px] sm:text-3xl tracking-[10px] font-cormorant [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)] font-extrabold">WEDS</span>
             <span className="font-cormorant [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)] font-extrabold">Devna Chawla</span>
-            {/* <p className="font-Cormorant-upright lg:text-4xl md:text-2xl text-[20px] font-bold md:mt-4">
-              #RoSaysIDee
-            </p> */}
+            
           </h2>
 
           <div className="flex flex-col items-center text-center gap-6 mt-0  lg:pt-250 pt-150 md:pt-0">
