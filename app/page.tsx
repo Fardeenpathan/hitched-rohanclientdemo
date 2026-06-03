@@ -361,7 +361,7 @@ export default function Home() {
                   </p>
                   <img
                     src={event.image}
-                    alt={event.venue}
+                    alt={event.title_ceremony}
                     className="lg:w-80 w-60 sm:w-76  h-auto"
                   />
 
