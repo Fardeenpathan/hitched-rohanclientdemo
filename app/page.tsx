@@ -74,9 +74,9 @@ export default function Home() {
     {
       Main_title_ceremony: "Outh of Love",
       title_ceremony: "Wedding",
-      image: "/assets/engagement_w.png",
+      image: "/assets/marriage.png",
       date: "Wednesday, 2nd December 2026",
-      venue: "Cinderella Farms by Bel-laMonde",
+      venue: <>Cinderella Farms by <br/> Bel-laMonde</>,
       venue_address: <>673, Main Chhatarpur Rd, Rajpur Khurd Village,<br /> Chhatarpur, New Delhi, <br />Delhi 110074</>,
       time: "9pm onwards",
       // theme: <><b>Theme:-</b> Timeless Royalty:<br/> Elegant Ethnic & Royal Silhouettes</>,
@@ -240,11 +240,11 @@ export default function Home() {
 
         <div className=" md:pt-24 pt-4 md:pb-50 lg:pb-60 relative z-10 pb-24">
           <h2 className="text-[#15528A]  text-center leading-tight text-[32px] sm:text-5xl lg:text-[100px] md:pb-370 pb-0 flex flex-col items-center gap-y-2 ">
-            <span className="font-parisienne [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)] font-extrabold">
+            <span className="font-cormorant [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)] font-extrabold">
               Rohan Kharbanda
-            </span>
-            <span className="text-[12px] sm:text-3xl tracking-[10px] font-cormorant [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)]">WEDS</span>
-            <span className="font-parisienne [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)]">Devna Chawla</span>
+            </span> 
+            <span className="text-[12px] sm:text-3xl tracking-[10px] font-cormorant [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)] font-extrabold">WEDS</span>
+            <span className="font-cormorant [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)] font-extrabold">Devna Chawla</span>
             {/* <p className="font-Cormorant-upright lg:text-4xl md:text-2xl text-[20px] font-bold md:mt-4">
               #RoSaysIDee
             </p> */}
@@ -268,7 +268,7 @@ export default function Home() {
 
             <h2 className="text-white lg:text-[30px] md:text-2xl text-[20px] font-Cormorant-upright">
               With the joyful hearts and blessings from
-              <br /> <b>Smt. Jatto bai & Late Shri Sidhu Ram k</b>
+              <br /> <b className="font-cormorant">Late Shri Sidhu Ram k  & Smt. Jatto bai</b>
             </h2>
 
 
@@ -297,8 +297,8 @@ export default function Home() {
 
 
             <p className="text-white font-Cormorant-upright lg:text-[30px] md:text-2xl mt-2 text-[16px]">
-            <b> (Grandson of Smt. Jatto bai & Late Shri Sidhu Ram k)</b> 
-              <br />(Son of Mrs. Raj kharbanda & Mr. Ashok Kharbanda)
+            <b className="font-cormorant"> (Grandson of Late Shri Sidhu Ram k &  Smt. Jatto bai)</b> 
+              <br />(Son of Mr. Ashok Kharbanda &  Mrs. Raj kharbanda)
             </p>
 
 
@@ -312,8 +312,8 @@ export default function Home() {
             </h2>
 
             <p className="text-white font-Cormorant-upright lg:text-[30px] md:text-2xl text-[16px] mt-2">
-             <b>(Granddaughter of Smt. Krishna chawla & Shri Rishi lal chawla)</b>  <br />
-              (Daughter of Mrs. Alka Chawla & Late Kaushal chawla)
+             <b className="font-cormorant">(Granddaughter of Shri Rishi lal chawla  & Smt. Krishna chawla)</b>  <br />
+              (Daughter of Late Kaushal chawla & Mrs. Alka Chawla)
             </p>
 
             <p className="text-white font-Cormorant-upright lg:text-3xl md:text-2xl text-[24px] mt-8">
