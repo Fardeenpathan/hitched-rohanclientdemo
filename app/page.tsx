@@ -46,7 +46,7 @@ export default function Home() {
     {
       Main_title_ceremony: "The RD Soirée",
       title_ceremony: "Sagan/Cocktail",
-      image: "/assets/cocktail_w.png",
+      image: "/assets/cocktail_rohan.png",
       date: "Monday, 30th November 2026",
       venue: "Oodles Hotel Chhattarpur",
       venue_address: <> Plot 759 762, Main Chhatarpur Rd, Block C,<br /> Chhatarpur Extension, Chhatarpur,<br /> New Delhi, Delhi 110074</>,
@@ -57,7 +57,7 @@ export default function Home() {
     {
       Main_title_ceremony: "Haldi Hues",
       title_ceremony: "Haldi",
-      image: "/assets/haldi.png",
+      image: "/assets/haldi_rohan.png",
       date: "Tuesday, 1st December 2026",
       venue: "Oodles Hotel Chhattarpur",
       venue_address: <> Plot 759 762, Main Chhatarpur Rd, Block C,<br /> Chhatarpur Extension, Chhatarpur,<br /> New Delhi, Delhi 110074</>,
@@ -66,7 +66,7 @@ export default function Home() {
       link: "https://share.google/9022apDOsGRfxYGGb",
       Main_title_ceremony2: "Mehfil e Mehndi",
       title_ceremony2: "Mehandi",
-      image2: "/assets/mehandi.png",
+      image2: "/assets/mehandi_rohan.png",
       time2: "7pm onwards",
     },
 
