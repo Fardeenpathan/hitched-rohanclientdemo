@@ -146,8 +146,8 @@ export default function Home() {
 
       <div className="
     bg-[url('/assets/bride__mobilebg22.jpg')]
-    3xl:bg-[url('/assets/rohan_desktopbg2.jpg')]
-    md:bg-[url('/assets/rohit_desktopbg2.webp')]
+   
+    md:bg-[url('/assets/rohan_desktopbg3.png')]
     bg-cover bg-no-repeat bg-top md:bg-center w-full px-4 sm:px-8 overflow-hidden relative">
 
 
