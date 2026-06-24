@@ -74,7 +74,7 @@ export default function Home() {
     {
       Main_title_ceremony: "Outh of Love",
       title_ceremony: "Wedding",
-      image: "/assets/marriage.png",
+      image: "/assets/rohan_wedd.png",
       date: "Wednesday, 2nd December 2026",
       venue: <>Cinderella Farms by <br/> Bel-laMonde</>,
       venue_address: <>673, Main Chhatarpur Rd, Rajpur Khurd Village,<br /> Chhatarpur, New Delhi, <br />Delhi 110074</>,
@@ -145,11 +145,10 @@ export default function Home() {
       <audio ref={audioRef} src="/assets/background_song_rohan.mp3" loop preload="auto" playsInline />
 
       <div className="
-    bg-[url('/assets/bride__mobilebg22.jpg')]
+    bg-[url('/assets/rohan_mobile.jpg')]
    
     md:bg-[url('/assets/rohan_desktopbg3.png')]
     bg-cover bg-no-repeat bg-top md:bg-center w-full px-4 sm:px-8 overflow-hidden relative">
-
 
 
 
