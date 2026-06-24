@@ -40,10 +40,10 @@ export default function MarriageCountdown() {
                 <div className="lg:h-140 md:h-70 h-125">
                     <h2 className="lg:text-[40px] text-4xl text-center text-[#FFF5B9] lg:pt-36 pt-12 font-Cormorant-upright">The countdown begins</h2> 
                       <h2 className="lg:text-[40px] text-2xl text-center text-[#FFF5B9] font-Cormorant-upright"> {timeLeft.days}D {timeLeft.hours}H {timeLeft.minutes}M</h2>
-                    <p className="lg:text-[22px] text-[20px] text-[#FFF5B9] mt-4 text-center lg:px-100 md:px-25 px-10 font-Cormorant-upright">
+                    <p className="lg:text-[22px] text-[20px] text-[#FFF5B9] mt-4 text-center lg:px-100 px-10 font-Cormorant-upright">
                         With hearts full of love and joy, <br/> Kharbana Family <br/> Sharma Family <br/> Gandhi Family <br/>
                          {/* Rekha Kharbanda, remembering Late Vijay Kharbanda with love, along with Devender Kharbanda, Sakshi, and Nitasha, */}
-                          warmly invite you to celebrate this beautiful<br/> union and bless the couple as they begin their forever together.
+                          warmly invite you to celebrate this beautiful <br className="hidden md:block"/> union and bless the couple as they begin their forever together.
                     </p>
                     <div className="flex flex-col-1 gap-4 justify-center items-center mt-4">
                        <a href="https://www.instagram.com/theinvitearc/" target="_blank"><img src="/assets/instagram_w.png" alt="" className="h-10 w-10"/></a>
