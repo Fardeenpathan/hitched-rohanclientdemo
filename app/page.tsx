@@ -145,9 +145,9 @@ export default function Home() {
       <audio ref={audioRef} src="/assets/background_song_rohan.mp3" loop preload="auto" playsInline />
 
       <div className="
-    bg-[url('/assets/rohan_mobile.jpg')]
+    bg-[url('/assets/rohan_mobile.webp')]
    
-    md:bg-[url('/assets/rohan_desktopbg3.png')]
+    md:bg-[url('/assets/rohan_desktopbg.webp')]
     bg-cover bg-no-repeat bg-top md:bg-center w-full px-4 sm:px-8 overflow-hidden relative">
 
 
